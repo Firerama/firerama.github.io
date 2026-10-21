@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ender Quest</title>
+  <meta name="description" content="Ender Quest: a puzzle game about filling every cell with darkness. Play it in your browser.">
+  <meta name="theme-color" content="#0b0908">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="bar">
+    <a href="../../#games">&larr; Firerama</a>
+    <span class="name">Ender Quest</span>
+  </header>
+  <main>
+    <pre id="screen" aria-live="polite">Loading Ender Quest…</pre>
+  </main>
+  <nav class="pad" aria-label="Controls">
+    <button type="button" data-key="up" aria-label="Up">&uarr;</button>
+    <button type="button" data-key="left" aria-label="Left">&larr;</button>
+    <button type="button" data-key="space" class="ok">Space</button>
+    <button type="button" data-key="right" aria-label="Right">&rarr;</button>
+    <button type="button" data-key="down" aria-label="Down">&darr;</button>
+  </nav>
+  <p class="help">Arrow keys (or WASD) to move, Space or Enter to confirm.</p>
+  <p class="rotate">Turn your phone sideways for a bigger board.</p>
+  <script type="module" src="game.js"></script>
+</body>
+</html>

@@ -4,9 +4,54 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Firerama</title>
+  <meta name="description" content="Firerama designs games you play right inside YouTube. Watch every video and stream here.">
+  <meta property="og:title" content="Firerama">
+  <meta property="og:description" content="Games that run on YouTube. Watch every video and stream.">
+  <meta name="theme-color" content="#120d0b">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Firerama</h1>
-  <p>Welcome! Check out our <a href="https://www.youtube.com/@Firerama">YouTube channel</a>.</p>
+  <header class="channel">
+    <div class="channel-inner">
+      <img class="avatar" id="avatar" src="" alt="" width="96" height="96" hidden>
+      <div class="channel-text">
+        <h1>Firerama</h1>
+        <p class="tagline">Designing games that run on YouTube!</p>
+        <div class="links">
+          <a class="btn btn-sub" href="https://www.youtube.com/@Firerama?sub_confirmation=1" target="_blank" rel="noopener">Subscribe on YouTube</a>
+          <a class="btn" href="https://www.twitch.tv/fireramalive" target="_blank" rel="noopener">Twitch</a>
+          <a class="btn" href="https://discord.gg/9KY5eY7XPu" target="_blank" rel="noopener">Discord</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="toolbar">
+      <nav class="tabs" aria-label="Video type">
+        <a class="tab" href="#videos" data-type="video">Videos <span class="count"></span></a>
+        <a class="tab" href="#shorts" data-type="short">Shorts <span class="count"></span></a>
+        <a class="tab" href="#streams" data-type="stream">Streams <span class="count"></span></a>
+        <a class="tab" href="#games" data-type="game">Games <span class="count"></span></a>
+      </nav>
+      <input type="search" id="search" placeholder="Search" aria-label="Search">
+    </div>
+    <p class="status" id="status">Loading videos…</p>
+    <ul class="grid" id="grid"></ul>
+  </main>
+
+  <footer>
+    <p><a href="https://www.youtube.com/@Firerama" target="_blank" rel="noopener">youtube.com/@Firerama</a> · <span id="updated"></span></p>
+  </footer>
+
+  <dialog id="player" aria-label="Video player">
+    <div class="player-frame"><iframe id="player-iframe" title="" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+    <div class="player-bar">
+      <a id="player-link" href="#" target="_blank" rel="noopener">Watch on YouTube</a>
+      <button type="button" id="player-close">Close</button>
+    </div>
+  </dialog>
+
+  <script src="app.js"></script>
 </body>
 </html>

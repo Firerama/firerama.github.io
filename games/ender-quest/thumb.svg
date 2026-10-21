@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Consolas, 'Courier New', monospace">
+  <rect width="640" height="360" fill="#0b0908"/>
+  <g stroke="#4a403a" stroke-width="2" fill="none">
+    <rect x="80" y="60" width="480" height="200"/>
+    <path d="M160 60v200M240 60v200M320 60v200M400 60v200M480 60v200M80 110h480M80 160h480M80 210h480"/>
+  </g>
+  <g fill="#7d6bb8" font-size="22" font-weight="700" text-anchor="middle">
+    <text x="120" y="93">###</text><text x="200" y="93">###</text><text x="280" y="93">###</text>
+    <text x="440" y="143">###</text><text x="520" y="143">###</text>
+    <text x="120" y="143">###</text><text x="120" y="193">###</text><text x="200" y="193">###</text>
+  </g>
+  <g fill="#ffd36b" font-size="20" text-anchor="middle">
+    <text x="360" y="93">· ·</text><text x="440" y="93">· ·</text><text x="520" y="93">· ·</text>
+    <text x="200" y="143">· ·</text><text x="280" y="143">· ·</text><text x="360" y="143">· ·</text>
+    <text x="280" y="193">· ·</text><text x="360" y="193">· ·</text><text x="440" y="193">· ·</text><text x="520" y="193">· ·</text>
+    <text x="120" y="243">· ·</text><text x="200" y="243">· ·</text><text x="280" y="243">· ·</text><text x="360" y="243">· ·</text><text x="440" y="243">· ·</text>
+  </g>
+  <g fill="#ffffff" font-size="16" font-weight="700" text-anchor="middle">
+    <text x="520" y="232">O</text><text x="520" y="246">/|\</text><text x="520" y="258">/ \</text>
+  </g>
+  <text x="320" y="318" fill="#ff6a2b" font-size="40" font-weight="700" text-anchor="middle" letter-spacing="6">ENDER QUEST</text>
+</svg>

@@ -1,0 +1,11 @@
+{
+  "games": [
+    {
+      "title": "Ender Quest",
+      "description": "Fill every cell with darkness: a puzzle adventure across 8 chapters, first made as a C++ console game in 2020.",
+      "path": "games/ender-quest/",
+      "thumbnail": "games/ender-quest/thumb.svg",
+      "published": "2020-05-03"
+    }
+  ]
+}
